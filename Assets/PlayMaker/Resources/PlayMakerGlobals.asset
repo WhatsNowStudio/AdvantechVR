@@ -15,13 +15,7 @@ MonoBehaviour:
     floatVariables: []
     intVariables: []
     boolVariables: []
-    stringVariables:
-    - useVariable: 1
-      name: G_String/json
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
+    stringVariables: []
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -47,7 +41,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000
+    variableCategoryIDs: 0000000000000000
   events:
   - Work
   - Click
@@ -88,3 +82,8 @@ MonoBehaviour:
   - GiveMeName
   - GiveMeName_Done
   - OpenTag
+  - GoToPano
+  - GiveMePanoJson
+  - GiveMePanoJson_Done
+  - GiveMeOpeningJson
+  - GiveMeOpeningJson_Done
