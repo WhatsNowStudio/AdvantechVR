@@ -373,13 +373,7 @@ public class PlayMakerEditorUtils : Editor {
 	public static void CopyTextToClipboard(string content)
 	{
 		TextEditor te = new TextEditor();
-
-		#if UNITY_5_3_OR_NEWER || UNITY_5_3
-			te.text = content;
-		#else
-			te.content = new GUIContent(content);
-		#endif
-
+		te.content = new GUIContent(content);
 		te.SelectAll();
 		te.Copy();
 	}

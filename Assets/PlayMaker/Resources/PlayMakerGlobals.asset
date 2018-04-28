@@ -73,3 +73,14 @@ MonoBehaviour:
   - UGUI / ON VECTOR2 VALUE CHANGED
   - Rest
   - Welcome_Done
+  - CreatBigScene_Done
+  - SetPanoPic
+  - SetPanoPic_Done
+  - SetPanoVideo
+  - SetPanoVideo_Done
+  - SetLinks
+  - SetLinks_Done
+  - CreatPanoScene_Big
+  - CreatPanoScene_Normal
+  - CreatPanoScene_Normal_Done
+  - CreatPanoScene_Big_Done
