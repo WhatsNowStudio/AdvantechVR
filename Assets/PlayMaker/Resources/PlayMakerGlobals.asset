@@ -17,7 +17,7 @@ MonoBehaviour:
     boolVariables: []
     stringVariables:
     - useVariable: 1
-      name: String/Json
+      name: G_String/json
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -29,19 +29,13 @@ MonoBehaviour:
     quaternionVariables: []
     gameObjectVariables:
     - useVariable: 1
-      name: Obj/API
+      name: G_Obj/API
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: Obj/MainCamera
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
-    - useVariable: 1
-      name: White_Mask
+      name: G_Obj/MainManager
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -53,7 +47,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000
   events:
   - Work
   - Click
@@ -77,3 +71,5 @@ MonoBehaviour:
   - UGUI / ON POINTER EXIT
   - UGUI / ON POINTER UP
   - UGUI / ON VECTOR2 VALUE CHANGED
+  - Rest
+  - Welcome_Done
