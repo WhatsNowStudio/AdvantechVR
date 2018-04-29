@@ -15,7 +15,13 @@ MonoBehaviour:
     floatVariables: []
     intVariables: []
     boolVariables: []
-    stringVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: String/SplitWord
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: "\u222D"
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -41,7 +47,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000
+    variableCategoryIDs: 000000000000000000000000
   events:
   - Work
   - Click
@@ -87,3 +93,10 @@ MonoBehaviour:
   - GiveMePanoJson_Done
   - GiveMeOpeningJson
   - GiveMeOpeningJson_Done
+  - CreatPanoScene_Error
+  - CreatPanoScene_BigAgain
+  - CreatPanoScene_BigAgain_Done
+  - GiveMeType
+  - GiveMeType_Done
+  - GiveMeLinkInfo
+  - GiveMeLinkInfo_Done
