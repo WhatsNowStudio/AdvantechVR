@@ -3727,17 +3727,17 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
+        name: Bool/IsFoot?
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
         name: Bool/IsUI?
         tooltip: 
         showInInspector: 1
         networkSync: 0
         value: 1
-      - useVariable: 1
-        name: Bool/NeedLookUp?
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
       stringVariables: []
       vector2Variables: []
       vector3Variables:
@@ -8698,7 +8698,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010001
+        actionIsOpen: 000000
         actionStartIndex: 000000000300000010000000
         actionHashCodes: 71c75a0327ffbc035e69bb04
         unityObjectParams: []
@@ -12221,8 +12221,8 @@ MonoBehaviour:
       colorIndex: 6
       position:
         serializedVersion: 2
-        x: 1011.4531
-        y: 510.28125
+        x: 1021.4531
+        y: 326.28125
         width: 182
         height: 16
       isBreakpoint: 0
@@ -12628,7 +12628,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

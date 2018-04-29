@@ -222,41 +222,6 @@ Prefab:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[2].value
       value: 
       objectReference: {fileID: 662853368}
-    - target: {fileID: 114276251421585218, guid: ba54f2adb96c51d4cabc24bac9b67c71,
-        type: 2}
-      propertyPath: fsm.states.Array.data[14].actionData.fsmStringParams.Array.data[3].useVariable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114276251421585218, guid: ba54f2adb96c51d4cabc24bac9b67c71,
-        type: 2}
-      propertyPath: fsm.states.Array.data[14].actionData.fsmStringParams.Array.data[3].name
-      value: String/SplitWord
-      objectReference: {fileID: 0}
-    - target: {fileID: 114276251421585218, guid: ba54f2adb96c51d4cabc24bac9b67c71,
-        type: 2}
-      propertyPath: fsm.states.Array.data[14].actionData.fsmStringParams.Array.data[3].value
-      value: "\u222D"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114648291260683954, guid: ba54f2adb96c51d4cabc24bac9b67c71,
-        type: 2}
-      propertyPath: fsm.states.Array.data[2].actionData.fsmStringParams.Array.data[8].useVariable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114648291260683954, guid: ba54f2adb96c51d4cabc24bac9b67c71,
-        type: 2}
-      propertyPath: fsm.states.Array.data[2].actionData.fsmStringParams.Array.data[8].value
-      value: "\u222D"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114648291260683954, guid: ba54f2adb96c51d4cabc24bac9b67c71,
-        type: 2}
-      propertyPath: fsm.preprocessed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114648291260683954, guid: ba54f2adb96c51d4cabc24bac9b67c71,
-        type: 2}
-      propertyPath: fsm.states.Array.data[2].actionData.fsmStringParams.Array.data[8].name
-      value: String/SplitWord
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ba54f2adb96c51d4cabc24bac9b67c71, type: 2}
   m_IsPrefabParent: 0
