@@ -100,3 +100,12 @@ MonoBehaviour:
   - GiveMeType_Done
   - GiveMeLinkInfo
   - GiveMeLinkInfo_Done
+  - GiveMePanoJson_Fail
+  - SetLinks_Fail
+  - SetPanoPic_Fail
+  - MessageUI_Ok
+  - Fail
+  - SetPos
+  - SetPos_Done
+  - CreatPanoScene_Done
+  - CreatPanoScene
