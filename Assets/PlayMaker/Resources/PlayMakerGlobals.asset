@@ -109,3 +109,4 @@ MonoBehaviour:
   - SetPos_Done
   - CreatPanoScene_Done
   - CreatPanoScene
+  - KillPos
