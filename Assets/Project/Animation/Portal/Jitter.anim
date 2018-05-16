@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: On
+  m_Name: Jitter
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -25,7 +25,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 0.8333333
-        value: {x: -3.5, y: 0, z: 0}
+        value: {x: -2.68, y: 0, z: 0}
         inSlope: {x: -0.050870083, y: 0, z: 0}
         outSlope: {x: -0.050870083, y: 0, z: 0}
         tangentMode: 0
@@ -44,7 +44,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 0.8333333
-        value: {x: 3.5, y: 0, z: 0}
+        value: {x: 2.62, y: 0, z: 0}
         inSlope: {x: -0.11617304, y: 0, z: 0}
         outSlope: {x: -0.11617304, y: 0, z: 0}
         tangentMode: 0
@@ -237,7 +237,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 0.8333333
-        value: -3.5
+        value: -2.68
         inSlope: -0.050870083
         outSlope: -0.050870083
         tangentMode: 0
@@ -303,7 +303,7 @@ AnimationClip:
         tangentMode: 0
       - serializedVersion: 2
         time: 0.8333333
-        value: 3.5
+        value: 2.62
         inSlope: -0.11617304
         outSlope: -0.11617304
         tangentMode: 0
