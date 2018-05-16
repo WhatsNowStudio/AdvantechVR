@@ -110,3 +110,8 @@ MonoBehaviour:
   - DataReady
   - Calculation_H&V
   - Pos_UI
+  - SetPortal
+  - SetPortal_Done
+  - GiveMeDefaultPortal
+  - GiveMeDefaultPortal_Done
+  - SetPortal_NoNeed
