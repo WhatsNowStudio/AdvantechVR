@@ -161,7 +161,7 @@ PlayerSettings:
     Android: com.whatsnow.VR_Android8_Test
     iOS: com.Advantech.AdvantechVR
   buildNumber: {}
-  AndroidBundleVersionCode: 2
+  AndroidBundleVersionCode: 3
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 27
   AndroidPreferredInstallLocation: 1
@@ -265,6 +265,7 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - cardboard
+    - None
   - m_BuildTarget: iOS
     m_Enabled: 1
     m_Devices:
