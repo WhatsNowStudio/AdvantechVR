@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d752caeaa2c404140839da66705215b3
-timeCreated: 1535460457
+timeCreated: 1535542679
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -11,9 +11,7 @@ ModelImporter:
     400000: A
     400002: B
     400004: //RootNode
-    2100000: A_Texture
-    2100002: A1
-    2100004: B_Texture
+    2100000: Texture
     2300000: A
     2300002: B
     3300000: A
