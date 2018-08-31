@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6056218e5d90d584ba390887874ad1e1
-timeCreated: 1535460455
+guid: 75c95bcd36652f7429b54073652ca231
+timeCreated: 1535629400
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -8,44 +8,21 @@ ModelImporter:
     100000: A
     100002: B
     100004: C
-    100006: D
-    100008: E
-    100010: F
-    100012: G
-    100014: //RootNode
+    100006: //RootNode
     400000: A
     400002: B
     400004: C
-    400006: D
-    400008: E
-    400010: F
-    400012: G
-    400014: //RootNode
-    2100000: A_Texture
-    2100002: B_Texture
-    2100004: D_Texture
-    2100006: E_Texture
+    400006: //RootNode
+    2100000: Texture
     2300000: A
     2300002: B
     2300004: C
-    2300006: D
-    2300008: E
-    2300010: F
-    2300012: G
     3300000: A
     3300002: B
     3300004: C
-    3300006: D
-    3300008: E
-    3300010: F
-    3300012: G
     4300000: A
     4300002: B
     4300004: C
-    4300006: D
-    4300008: E
-    4300010: F
-    4300012: G
     9500000: //RootNode
   externalObjects: {}
   materials:

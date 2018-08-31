@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 2ed355ff640befe4d886ed49ae843a33
-timeCreated: 1535462882
+guid: e2b57a9554e0b80459065c8c271719b6
+timeCreated: 1535630189
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -10,39 +10,34 @@ ModelImporter:
     100004: C
     100006: D
     100008: E
-    100010: F
+    100010: G
     100012: //RootNode
     400000: A
     400002: B
     400004: C
     400006: D
     400008: E
-    400010: F
+    400010: G
     400012: //RootNode
-    2100000: A1
-    2100002: B_Texture
-    2100004: C_Texture
-    2100006: D_Texture
-    2100008: E_Texture
-    2100010: F_Texture
+    2100000: Texture
     2300000: A
     2300002: B
     2300004: C
     2300006: D
     2300008: E
-    2300010: F
+    2300010: G
     3300000: A
     3300002: B
     3300004: C
     3300006: D
     3300008: E
-    3300010: F
+    3300010: G
     4300000: A
     4300002: B
     4300004: C
     4300006: D
     4300008: E
-    4300010: F
+    4300010: G
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -96,7 +91,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

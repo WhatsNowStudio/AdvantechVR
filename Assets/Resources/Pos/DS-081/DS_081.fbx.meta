@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: d6a8a3e512d8b774e80501115116b68e
-timeCreated: 1535460456
+guid: d1405e68599664846848c4d501bd295c
+timeCreated: 1535628905
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -13,12 +13,7 @@ ModelImporter:
     400002: B
     400004: C
     400006: //RootNode
-    2100000: E_Texture
-    2100002: A_Texture
-    2100004: D_Texture
-    2100006: F_Texture
-    2100008: B_Texture
-    2100010: C_Texture
+    2100000: Texture
     2300000: A
     2300002: B
     2300004: C

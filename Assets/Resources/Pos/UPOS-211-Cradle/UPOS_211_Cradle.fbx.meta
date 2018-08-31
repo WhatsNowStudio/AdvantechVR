@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4ec3a65ddaafc5a48be0a8f12dba77f6
-timeCreated: 1535462882
+guid: 99af772ca4c612e45b3dc8639e87e75d
+timeCreated: 1535630495
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -21,13 +21,7 @@ ModelImporter:
     400010: F
     400012: G
     400014: //RootNode
-    2100000: A1
-    2100002: B_Texture
-    2100004: C1
-    2100006: D_Texture
-    2100008: E_Texture
-    2100010: F_Texture
-    2100012: G_Texture
+    2100000: Texture
     2300000: A
     2300002: B
     2300004: C
@@ -102,7 +96,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

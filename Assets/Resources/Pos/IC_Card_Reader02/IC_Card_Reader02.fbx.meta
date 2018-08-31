@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: e76096d87736af142ac7e1c7c91d06ed
-timeCreated: 1535460457
+guid: c3b06dfdc28fc664a867b33cb8c0d8f3
+timeCreated: 1535629313
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -11,14 +11,7 @@ ModelImporter:
     400000: A
     400002: B
     400004: //RootNode
-    2100000: A3
-    2100002: A1
-    2100004: A2
-    2100006: B5
-    2100008: B1_Texture
-    2100010: B2
-    2100012: B3
-    2100014: B4_Texture
+    2100000: Texture
     2300000: A
     2300002: B
     3300000: A

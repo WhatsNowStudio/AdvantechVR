@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 20225070786a465498dda110351a6f48
-timeCreated: 1535462882
+guid: 79cc516c984470b40b3444855c5f6bd1
+timeCreated: 1535630242
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -14,11 +14,7 @@ ModelImporter:
     100012: G
     100014: H
     100016: I
-    100018: J
-    100020: K
-    100022: UPOS_10inch
-    100024: UPOS_211
-    100026: //RootNode
+    100018: //RootNode
     400000: A
     400002: B
     400004: C
@@ -28,20 +24,8 @@ ModelImporter:
     400012: G
     400014: H
     400016: I
-    400018: J
-    400020: K
-    400022: UPOS_10inch
-    400024: UPOS_211
-    400026: //RootNode
-    2100000: H_Texture
-    2100002: I_Texture
-    2100004: C1
-    2100006: A1
-    2100008: B_Texture
-    2100010: D_Texture
-    2100012: E_Texture
-    2100014: F_Texture
-    2100016: G_Texture
+    400018: //RootNode
+    2100000: Texture
     2300000: A
     2300002: B
     2300004: C
@@ -51,8 +35,6 @@ ModelImporter:
     2300012: G
     2300014: H
     2300016: I
-    2300018: J
-    2300020: K
     3300000: A
     3300002: B
     3300004: C
@@ -62,19 +44,15 @@ ModelImporter:
     3300012: G
     3300014: H
     3300016: I
-    3300018: J
-    3300020: K
-    4300000: H
-    4300002: I
-    4300004: J
-    4300006: K
-    4300008: A
-    4300010: B
-    4300012: C
-    4300014: D
-    4300016: E
-    4300018: F
-    4300020: G
+    4300000: A
+    4300002: B
+    4300004: C
+    4300006: D
+    4300008: E
+    4300010: F
+    4300012: G
+    4300014: H
+    4300016: I
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -128,7 +106,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

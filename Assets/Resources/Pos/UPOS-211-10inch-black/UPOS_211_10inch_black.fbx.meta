@@ -1,74 +1,58 @@
 fileFormatVersion: 2
-guid: afe39674979cddc45af62a85e26df677
-timeCreated: 1535462884
+guid: b6b78b5080a19d54cb1372b2bc32c3b3
+timeCreated: 1535630290
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: A
-    100002: A 1
-    100004: B
-    100006: B 1
-    100008: C
-    100010: C 1
-    100012: D
-    100014: D 1
-    100016: E
-    100018: F
-    100020: G
-    100022: UPOS_10inch
-    100024: UPOS_211
-    100026: //RootNode
+    100002: B
+    100004: C
+    100006: D
+    100008: E
+    100010: F
+    100012: G
+    100014: H
+    100016: I
+    100018: //RootNode
     400000: A
-    400002: A 1
-    400004: B
-    400006: B 1
-    400008: C
-    400010: C 1
-    400012: D
-    400014: D 1
-    400016: E
-    400018: F
-    400020: G
-    400022: UPOS_10inch
-    400024: UPOS_211
-    400026: //RootNode
-    2100000: B1
-    2100002: C1
-    2100004: A1
+    400002: B
+    400004: C
+    400006: D
+    400008: E
+    400010: F
+    400012: G
+    400014: H
+    400016: I
+    400018: //RootNode
+    2100000: Texture
     2300000: A
-    2300002: A 1
-    2300004: B
-    2300006: B 1
-    2300008: C
-    2300010: C 1
-    2300012: D
-    2300014: D 1
-    2300016: E
-    2300018: F
-    2300020: G
+    2300002: B
+    2300004: C
+    2300006: D
+    2300008: E
+    2300010: F
+    2300012: G
+    2300014: H
+    2300016: I
     3300000: A
-    3300002: A 1
-    3300004: B
-    3300006: B 1
-    3300008: C
-    3300010: C 1
-    3300012: D
-    3300014: D 1
-    3300016: E
-    3300018: F
-    3300020: G
+    3300002: B
+    3300004: C
+    3300006: D
+    3300008: E
+    3300010: F
+    3300012: G
+    3300014: H
+    3300016: I
     4300000: A
     4300002: B
     4300004: C
     4300006: D
     4300008: E
-    4300010: G
-    4300012: F
-    4300014: D
-    4300016: C
-    4300018: B
-    4300020: A
+    4300010: F
+    4300012: G
+    4300014: H
+    4300016: I
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -122,7 +106,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1

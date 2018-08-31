@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: bfcdb989442171841b17003075ebc18a
-timeCreated: 1535460456
+guid: 2fc2531527494ed448f6ff09eea77486
+timeCreated: 1535630135
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -11,8 +11,7 @@ ModelImporter:
     400000: A
     400002: B
     400004: //RootNode
-    2100000: A_Texture
-    2100002: B_Texture
+    2100000: Texture
     2300000: A
     2300002: B
     3300000: A
@@ -71,10 +70,10 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 34
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
