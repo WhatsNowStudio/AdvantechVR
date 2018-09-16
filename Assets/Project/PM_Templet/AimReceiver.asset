@@ -474,7 +474,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000001
+        actionIsOpen: 000000
         actionStartIndex: 00000000060000000c000000
         actionHashCodes: c7fcac02dfd72a041133a702
         unityObjectParams: []
@@ -810,8 +810,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 75
-        y: 305.5
+        x: 81
+        y: 306.5
         width: 100
         height: 32
       isBreakpoint: 0
