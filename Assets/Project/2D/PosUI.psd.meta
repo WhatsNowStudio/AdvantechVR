@@ -16,6 +16,10 @@ TextureImporter:
     21300018: PosUI_Rotate
     21300020: PosUI_ButtonRotate
     21300022: PosUI_ButtonExit
+    21300024: PosUI_PicBGLine
+    21300026: PosUI_TitleBGLine
+    21300028: PosUI_TitleBGLine2
+    21300030: PosUI_ButtonLine
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -120,13 +124,13 @@ TextureImporter:
       name: PosUI_PicBG
       rect:
         serializedVersion: 2
-        x: 8
-        y: 283
-        width: 475
-        height: 179
+        x: 273
+        y: 288
+        width: 207
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 12, y: 18, z: 13, w: 11}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -148,13 +152,13 @@ TextureImporter:
       name: PosUI_SmallInfoBG
       rect:
         serializedVersion: 2
-        x: 555
+        x: 556
         y: 170
-        width: 446
-        height: 142
+        width: 439
+        height: 117
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 15, y: 30, z: 152, w: 13}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -251,7 +255,7 @@ TextureImporter:
         width: 236
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,8 +269,64 @@ TextureImporter:
         width: 240
         height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PosUI_PicBGLine
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 431
+        width: 155
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 0, z: 13, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PosUI_TitleBGLine
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 615
+        width: 261
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 38, y: 0, z: 16, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PosUI_TitleBGLine2
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 644
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PosUI_ButtonLine
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 44
+        width: 460
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 27, y: 0, z: 48, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
