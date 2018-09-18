@@ -325,11 +325,6 @@ Prefab:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224906972164648718, guid: d47eb9b57d76d524487a1a45cd5bdd51,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224720242876732592, guid: d47eb9b57d76d524487a1a45cd5bdd51,
         type: 2}
       propertyPath: m_AnchoredPosition.x
