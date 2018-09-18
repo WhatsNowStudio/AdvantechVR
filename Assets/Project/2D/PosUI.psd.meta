@@ -20,6 +20,9 @@ TextureImporter:
     21300026: PosUI_TitleBGLine
     21300028: PosUI_TitleBGLine2
     21300030: PosUI_ButtonLine
+    21300032: PosUI_LineTR
+    21300034: PosUI_LineBR
+    21300036: PosUI_LineBL
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -116,7 +119,7 @@ TextureImporter:
         height: 673
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 294, z: 0, w: 314}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -327,6 +330,48 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 27, y: 0, z: 48, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PosUI_LineTR
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1545
+        width: 163
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 39, z: 0, w: 42}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PosUI_LineBR
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 613
+        width: 69
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 33, z: 0, w: 49}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PosUI_LineBL
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 595
+        width: 318
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 32, y: 43, z: 0, w: 52}
       outline: []
       physicsShape: []
       tessellationDetail: 0
