@@ -899,7 +899,7 @@ MonoBehaviour:
         paramDataPos: 00000000000000000100000001000000000000000100000000000000010000000000000002000000000000000000000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000
     - name: "\u53D6\u5F97ID\u5167\u7684Title"
-      description: "#\u5B8C\u6210\u5F8C\u56DE\u50B3"
+      description: "#\u5B8C\u6210\u5F8C\u56DE\u50B3\n#Inside_0"
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -927,6 +927,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.BuildString
         - HutongGames.PlayMaker.Actions.SetEventData
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
@@ -934,10 +935,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 000000000001
-        actionStartIndex: 000000000f000000160000001f0000002700000034000000
-        actionHashCodes: d9ade60315a3be0515a3be057370ae0527ffbc035e69bb04
+        - 
+        actionEnabled: 01010101010101
+        actionIsOpen: 00000000000001
+        actionStartIndex: 000000000f000000160000001f000000270000003400000038000000
+        actionHashCodes: d9ade60315a3be0515a3be057370ae0527ffbc035e69bb0488611604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -1326,6 +1328,7 @@ MonoBehaviour:
         - 
         - Error
         - GiveMeLinkInfo_Done
+        - Inside_0
         byteData: 0000
         arrayParamSizes: 0100000001000000020000000200000003000000
         arrayParamTypes:
@@ -1336,7 +1339,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmString
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000120000000c000000120000000c000000270000001700000017000000120000000c00000012000000120000000c000000270000002700000017000000170000000c0000001200000012000000120000001200000011000000120000000100000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f00000001000000
+        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000120000000c000000120000000c000000270000001700000017000000120000000c00000012000000120000000c000000270000002700000017000000170000000c0000001200000012000000120000001200000011000000120000000100000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f0000000100000017000000
         paramName:
         - sentByGameObject
         - fsmName
@@ -1394,8 +1397,9 @@ MonoBehaviour:
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000200000002000000000000000300000001000000000000000000000001000000040000000200000005000000060000000300000001000000020000000200000003000000040000000700000008000000090000000a000000010000000b000000000000000200000001000000010000000c00000002000000010000000100000001000000010000000100000003000000040000000500000000000000040000000200000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        - sendEvent
+        paramDataPos: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000200000002000000000000000300000001000000000000000000000001000000040000000200000005000000060000000300000001000000020000000200000003000000040000000700000008000000090000000a000000010000000b000000000000000200000001000000010000000c0000000200000001000000010000000100000001000000010000000300000004000000050000000000000004000000020000000100000005000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
     - name: "\u53D6\u5F97\u6240\u6709ID"
       description: 
       colorIndex: 0
@@ -1514,7 +1518,7 @@ MonoBehaviour:
         paramDataPos: 00000000000000000100000001000000000000000000000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
     - name: "\u53D6\u5F97Pano\u5167\u5BB9"
-      description: 
+      description: '#Inside_0'
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -1540,15 +1544,17 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.JsonGetObjectProperties
         - HutongGames.PlayMaker.Actions.SetEventData
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010000
-        actionStartIndex: 000000000f0000001600000023000000
-        actionHashCodes: d9ade60315a3be0527ffbc035e69bb04
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0000000001
+        actionStartIndex: 000000000f000000160000002300000027000000
+        actionHashCodes: d9ade60315a3be0527ffbc035e69bb0488611604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -1833,6 +1839,7 @@ MonoBehaviour:
         - 
         - Error
         - GiveMePanoJson_Done
+        - Inside_0
         byteData: 00
         arrayParamSizes: 0100000001000000
         arrayParamTypes:
@@ -1840,7 +1847,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000120000000c000000120000000c00000027000000170000001700000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f00000001000000
+        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000120000000c000000120000000c00000027000000170000001700000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f0000000100000017000000
         paramName:
         - sentByGameObject
         - fsmName
@@ -1881,8 +1888,9 @@ MonoBehaviour:
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 000000000000000000000000000000000000000000000000000000000100000001000000000000000000000000000000010000000000000002000000020000000000000003000000010000000000000000000000010000000200000001000000010000000400000001000000010000000100000001000000010000000100000003000000040000000500000000000000020000000200000000000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        - sendEvent
+        paramDataPos: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000200000002000000000000000300000001000000000000000000000001000000020000000100000001000000040000000100000001000000010000000100000001000000010000000300000004000000050000000000000002000000020000000000000003000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
     - name: "\u5831\u932F"
       description: 
       colorIndex: 6
@@ -2575,7 +2583,7 @@ MonoBehaviour:
         paramDataPos: 00000000000000000000000000000000
         paramByteDataSize: 00000000000000000000000001000000
     - name: "\u53D6\u5F97\u50B3\u9001\u9580\u9810\u8A2D"
-      description: 
+      description: '#Inside_0'
       colorIndex: 0
       position:
         serializedVersion: 2
@@ -2602,16 +2610,18 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.JsonGetObjectProperties
         - HutongGames.PlayMaker.Actions.SetEventData
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
         - 
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0000000101
-        actionStartIndex: 000000000f000000160000001d0000002a000000
-        actionHashCodes: d9ade60315a3be0515a3be0527ffbc035e69bb04
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 000000010101
+        actionStartIndex: 000000000f000000160000001d0000002a0000002e000000
+        actionHashCodes: d9ade60315a3be0515a3be0527ffbc035e69bb0488611604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -2934,6 +2944,7 @@ MonoBehaviour:
         - 
         - Error
         - GiveMeDefaultPortal_Done
+        - Inside_0
         byteData: 00
         arrayParamSizes: 01000000010000000100000001000000
         arrayParamTypes:
@@ -2943,7 +2954,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000120000000c000000120000000c000000270000001700000017000000120000000c000000120000000c00000027000000170000001700000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f00000001000000
+        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000120000000c000000120000000c000000270000001700000017000000120000000c000000120000000c00000027000000170000001700000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f0000000100000017000000
         paramName:
         - sentByGameObject
         - fsmName
@@ -2991,8 +3002,9 @@ MonoBehaviour:
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000200000002000000000000000300000001000000000000000000000001000000040000000200000005000000030000000100000002000000030000000200000001000000010000000600000001000000010000000100000001000000010000000100000003000000040000000500000000000000040000000200000000000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        - sendEvent
+        paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000020000000200000000000000030000000100000000000000000000000100000004000000020000000500000003000000010000000200000003000000020000000100000001000000060000000100000001000000010000000100000001000000010000000300000004000000050000000000000004000000020000000000000005000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
     - name: "\u5831\u932F 2"
       description: 
       colorIndex: 6
@@ -3191,6 +3203,316 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000200000000000000000000000100000000000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+    - name: "\u5237\u65B0Json"
+      description: 
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 916.21875
+        y: 142.97656
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Go
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u53D6\u5F97\u6240\u6709ID-"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.WWWPOSTMobile
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: e4ef5700
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: http://api.jsoneditoronline.org/v1/docs/3ea5c2f5c53b4446b0123b4d0ae37da6/data
+        - useVariable: 1
+          name: String/JsonMain
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.Object
+          value: {fileID: 0}
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Go
+        - 
+        byteData: 00000000
+        arrayParamSizes: 0000000000000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 120000000c0000000c000000120000002100000018000000110000001100000007000000120000000f0000001700000017000000
+        paramName:
+        - url
+        - postKeys
+        - postValues
+        - storeText
+        - storeTexture
+        - storeAudio
+        - audio3d
+        - audioStream
+        - audioType
+        - errorString
+        - progress
+        - isDone
+        - isError
+        paramDataPos: 00000000000000000100000001000000000000000100000000000000010000000000000002000000000000000000000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000
+    - name: "\u53D6\u5F97\u6240\u6709ID-"
+      description: 
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 919.4844
+        y: 198.4375
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Go
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u7B493\u79D2"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.JsonGetObjectProperties
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 15a3be05
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: String/JsonMain
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: PanoID
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: String/JsonPanoIDAll
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 4
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Go
+        - 
+        byteData: 
+        arrayParamSizes: 0100000001000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmVar
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 120000000c000000120000000c000000270000001700000017000000
+        paramName:
+        - jsonString
+        - keys
+        - 
+        - values
+        - 
+        - successEvent
+        - failureEvent
+        paramDataPos: 00000000000000000100000001000000000000000000000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: "\u7B493\u79D2"
+      description: 
+      colorIndex: 1
+      position:
+        serializedVersion: 2
+        x: 922.4844
+        y: 250.4375
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: Go
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u5237\u65B0Json"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 48c01101
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Go
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -3225,6 +3547,9 @@ MonoBehaviour:
     - name: Go
       isSystemEvent: 0
       isGlobal: 0
+    - name: Inside_0
+      isSystemEvent: 0
+      isGlobal: 0
     - name: Work
       isSystemEvent: 0
       isGlobal: 1
@@ -3250,6 +3575,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u53D6\u5F97\u50B3\u9001\u9580\u9810\u8A2D"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Inside_0
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: "\u5237\u65B0Json"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
