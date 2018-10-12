@@ -161,7 +161,7 @@ PlayerSettings:
     Android: com.Advantech.VR20
     iOS: com.Advantech.AdvantechVR
   buildNumber: {}
-  AndroidBundleVersionCode: 30
+  AndroidBundleVersionCode: 35
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 27
   AndroidPreferredInstallLocation: 1

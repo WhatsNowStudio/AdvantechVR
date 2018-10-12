@@ -115,3 +115,4 @@ MonoBehaviour:
   - GiveMeDefaultPortal
   - GiveMeDefaultPortal_Done
   - SetPortal_NoNeed
+  - Close

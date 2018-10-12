@@ -11,12 +11,14 @@ ModelImporter:
     100006: D
     100008: E
     100010: //RootNode
+    100012: group1
     400000: A
     400002: B
     400004: C
     400006: D
     400008: E
     400010: //RootNode
+    400012: group1
     2100000: Texture
     2300000: A
     2300002: B
