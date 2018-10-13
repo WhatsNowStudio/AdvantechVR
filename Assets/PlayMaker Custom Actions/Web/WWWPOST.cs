@@ -159,7 +159,7 @@ namespace HutongGames.PlayMaker.Actions
 				storeText.Value = wwwObject.text;
 				storeTexture.Value = wwwObject.texture;
 
-                storeMovieTexture.Value = wwwObject.movie;
+                storeMovieTexture.Value = wwwObject.GetMovieTexture();
 				
 				if (!storeAudio.IsNone)
 				{

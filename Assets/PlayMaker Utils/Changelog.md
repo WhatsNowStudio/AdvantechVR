@@ -1,7 +1,31 @@
 #PlayMaker Utils Change log
 
+###1.5.4
+**Release Date:** 20/07/2018  
+
+**new**: VersionInfo class to help finding out addons versions and misc
+
+###1.5.3
+**Release Date:** 18/07/2018  
+
+**fixed**: removed unwanted Editor reference that prevented builds
+
+**fixed**: leveraged global event creation with better checks
+
+
+###1.5.2
+**Release Date:** 27/06/2018  
+
+**new**: new `Current Event Data` for viewing live the current event data being used.
+
+###1.5.1
+**Release Date:** 11/06/2018  
+
+**Improvement** `EventProxyWizard` now can accepts a single parameter passed as `EventData` to the playmaker event
+
+
 ###1.5
-**Release Date:** pending  
+**Release Date:** 20/03/2018  
 
 **new**: new `PlayMakerTimelineEventTarget` for creating convenient proxies for timeline
 
@@ -10,6 +34,10 @@
 **new**: Editor Utils to copy string to clipboard `PlayMakerEditorUtils.CopyTextToClipboard()`
 
 **Fix**: Fixed mounting and unmounting scripting symbols, properly based on PlaymakerDefines.cs. 
+
+**Fix**: ProceduralMaterial support rule for 2017 and 2018
+
+**new**: `PLAYMAKER_UTILS_1_5_OR_NEWER` symbol
 
 ###1.4.2
 **Release Date:** 22/06/2017  
@@ -25,7 +53,7 @@
 ###1.4
 **Release Date:** 01/06/2017
 
-**new**: PlayMakerUtilsDefine class to feature PLAYMAKER\_UTILS and PLAYMAKER\_UTILS\_1\_4\_OR\_NEWER  
+**new**: PlayMakerUtilsDefine class to feature `PLAYMAKER_UTILS` and `PLAYMAKER_UTILS_1_4_OR_NEWER`  
 
 **new**: MainCamerTarget Public Class with property drawer like the owner class for proxy component creation  
 
