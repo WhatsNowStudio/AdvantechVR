@@ -282,7 +282,7 @@ MonoBehaviour:
         actionEnabled: 010101
         actionIsOpen: 000000
         actionStartIndex: 00000000060000000c000000
-        actionHashCodes: c7fcac02dfd72a041133a702
+        actionHashCodes: d674cf03dfd72a041133a702
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -2011,6 +2011,7 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
+    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
